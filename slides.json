@@ -1,0 +1,55 @@
+{
+  "welcome": {
+    "line1": "WELCOME TO",
+    "line2": "3R PLUMBING & MECHANICAL",
+    "tagline": "People | Service | Solutions"
+  },
+  "services": {
+    "title": "What we do",
+    "items": [
+      {
+        "icon": "heating",
+        "title": "Heating",
+        "points": ["Boilers", "Furnaces", "Heat pumps"]
+      },
+      {
+        "icon": "cooling",
+        "title": "Cooling",
+        "points": ["AC", "Ductless"]
+      },
+      {
+        "icon": "plumbing",
+        "title": "Plumbing",
+        "points": ["Water heaters", "Repairs", "Drains"]
+      },
+      {
+        "icon": "plans",
+        "title": "Maintenance plans",
+        "points": []
+      }
+    ]
+  },
+  "towns": {
+    "title": "Proudly serving the South Shore",
+    "home": ["Norwell", "Pembroke"],
+    "places": [
+      "Norwell",
+      "Pembroke",
+      "Hanover",
+      "Scituate",
+      "Duxbury",
+      "Marshfield",
+      "Hingham",
+      "Hanson",
+      "Rockland",
+      "Kingston"
+    ]
+  },
+  "reviewAsk": {
+    "title": "Leave us a review",
+    "hint": "Scan the code to share your experience"
+  },
+  "cta": {
+    "title": "Questions? Ask us today"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3R Plumbing &amp; Mechanical</title>
+  <meta name="color-scheme" content="dark">
+  <style>html,body{margin:0;background:#10161f}</style>
+  <script>
+    (function () {
+      var v = new URLSearchParams(location.search).get('cb') || '20261027a';
+      window.LOBBY_ASSET = v;
+      document.write('<link rel="stylesheet" href="styles.css?v=' + encodeURIComponent(v) + '">');
+      document.write('<link rel="icon" href="assets/3r-logo.png?v=' + encodeURIComponent(v) + '">');
+    })();
+  </script>
+</head>
+<body>
+  <div id="stage">
+    <img id="mark" alt="3R Plumbing &amp; Mechanical" hidden>
+    <div id="deck"></div>
+    <div id="progress" aria-hidden="true"><span></span></div>
+    <div id="counter" aria-hidden="true"></div>
+    <div id="controls">
+      <button type="button" id="prev" aria-label="Previous slide">&#9664;</button>
+      <button type="button" id="pause" aria-label="Pause slideshow">&#8545;</button>
+      <button type="button" id="next" aria-label="Next slide">&#9654;</button>
+      <button type="button" id="full" aria-label="Fullscreen">&#9974;</button>
+    </div>
+  </div>
+  <noscript><p class="noscript">This display needs JavaScript turned on.</p></noscript>
+  <script>
+    (function () {
+      var v = window.LOBBY_ASSET || '20261027a';
+      var files = ['vendor/qrcode.js', 'config.js', 'app.js'];
+      for (var i = 0; i < files.length; i++) {
+        document.write('<script src="' + files[i] + '?v=' + encodeURIComponent(v) + '"><\/script>');
+      }
+    })();
+  </script>
+</body>
+</html>
